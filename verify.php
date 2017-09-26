@@ -1,8 +1,8 @@
 <?php
-$proxy = 'proxyurl:port';
-$proxyauth = 'username:password';
 $access_token = 'yhTnvirBNNgU9cWjVEGouJkW1ld6uTWtQRbmyEHU6x4RbFp/0sFhSdtVutwIKdXXv7ugmPm1JucjDrAjfgPAZ6pB9CNhBucUYHmEyVolW1/HbLB6czWwC1a6oHgfvOIldzFiSnrZ/Tg1VwNGqHUW+gdB04t89/1O/w1cDnyilFU=';
 
+$proxy = 'proxyurl:port';
+$proxyauth = 'username:password';
 $url = 'https://api.line.me/v1/oauth/verify';
 
 $headers = array('Authorization: Bearer ' . $access_token);
